@@ -1,0 +1,9 @@
+* {
+  margin: 2px;
+  border: 2px solid blue;
+}
+li {
+  display: inline;
+  margin: 12px;
+  justify-content: space-between;
+}
