@@ -1,11 +1,11 @@
-.html {
+ .html {
   font-size: 18px;
 }
 .page {
   margin: 0;
 }
 .container {
-  margin: 0 20px;
+  margin: 0 1.111rem;
   background-color: cyan;
 }
 .title {
@@ -19,13 +19,13 @@
 
 @media all and (min-width: 768px) {
   .container {
-    margin: 30 0 40 40;
+    margin: 30 40 0;
   }
   .title {
     font-size: 1.555rem;
   }
   .text {
-    font-size: 1.888rem;
+    font-size: 0.888rem;
     line-height: 1.111rem;
   }
 @media all and (min-width: 1140px) {
