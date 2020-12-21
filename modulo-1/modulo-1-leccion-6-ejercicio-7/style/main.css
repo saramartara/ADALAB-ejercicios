@@ -1,0 +1,45 @@
+.html {
+  font-size: 18px;
+}
+.page {
+  margin: 0;
+}
+.container {
+  margin: 0 20px;
+  background-color: cyan;
+}
+.title {
+  font: bold;
+  font-size: 1.778rem;
+}
+.text {
+  font-size: 1rem;
+  line-height: 1.333rem;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    margin: 30 0 40 40;
+  }
+  .title {
+    font-size: 1.555rem;
+  }
+  .text {
+    font-size: 1.888rem;
+    line-height: 1.111rem;
+  }
+@media all and (min-width: 1140px) {
+  .container {
+    margin-top: 190px;
+    margin-left: auto;
+    scroll-margin-right: auto;
+    max-width: 750px;
+  }
+  .title {
+    font-size: 2.333rem;
+  }
+  .text {
+    font-size: 1.333rem;
+    line-height: 1.777rem;
+  }
+}
