@@ -1,0 +1,13 @@
+.div {
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+}
+.imagen {
+  height: 100px;
+  width: 100px;
+  border: 5px solid red;
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+.div {
+  border: 3px solid deeppink;
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+}
+.div1 {
+  display: inline;
+}
+.div2 {
+  display: inline;
+}
+.div3 {
+  display: inline-block;
+}
