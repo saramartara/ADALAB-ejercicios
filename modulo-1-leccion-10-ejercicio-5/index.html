@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <label for="name">Nombre</label>
+      <input
+        class="name"
+        id="name"
+        placeholder="Nombre"
+        name="name"
+        type="text"
+      />
+      <input class="name" placeholder="Apellidos" name="surname" type="text" />
+      <label for="user">Nombre de usuario</label>
+      <input
+        class=""
+        id="user"
+        placeholder="@gmail.com"
+        name="user"
+        type="email"
+      />
+      <label for="password">Contraseña</label>
+      <input class="" id="password" name="password" type="password" />
+      <label for="confirmPassword">Contraseña</label>
+      <input
+        class=""
+        id="confirmPassword"
+        name="confirmPassword"
+        type="password"
+      />
+      <label for="birth">Fecha de nacimiento</label>
+      <div class="birthday" id="birth">
+        <input class="day" placeholder="Día" name="birth" type="text" />
+        <select name="birth">
+          <option value="Month">Mes</option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+          <option value="">5</option>
+        </select>
+        <input
+          class="year"
+          id="year"
+          placeholder="Año"
+          name="birth"
+          type="text"
+        />
+      </div>
+      <label for="gender">Sexo</label>
+      <select name="gender" id="gender" class="gender">
+        <option value="gender">Selecciona tu género</option>
+        <option value="female">Mujer</option>
+        <option value="male">Hombre</option>
+      </select>
+      <label for="mobile">Teléfono móvil</label>
+      <input type="tel" class="" name="mobile" id="mobile" placeholder="+34" />
+      <label for="email">Tu dirección de correo electrónico actual</label>
+      <input type="email" id="email" name="email" />
+      <label for="country">Ubicación</label>
+      <select name="country" id="country" class="country">
+        <option value="country">España</option>
+        <option value="italy">Italia</option>
+        <option value="france">Francia</option>
+      </select>
+    </form>
+  </body>
+</html>

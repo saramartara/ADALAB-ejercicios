@@ -1,0 +1,37 @@
+form {
+  width: 500px;
+  padding: 20px;
+  background-color: pink;
+}
+input,
+.label {
+  display: block;
+  margin: 10px;
+  font-size: 18px;
+}
+.name {
+  display: flex;
+}
+.birthday {
+  margin: 10px;
+}
+.link {
+  color: blue;
+  font-size: 14px;
+}
+.birth {
+  display: inline-block;
+  width: 40%;
+  padding: 0 10px;
+}
+.gender input {
+  display: inline;
+}
+.button {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  margin: 0;
+}

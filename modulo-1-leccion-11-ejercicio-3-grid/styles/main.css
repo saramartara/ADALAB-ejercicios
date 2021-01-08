@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+.page {
+  height: 100vh;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 20% 60% 20%; /*se puede usar como medida px y fr, 20% 1fr 20%: coge espacio sobrante*/
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; */
+}
+.header {
+  background: pink;
+  grid-column: span 12;
+}
+.menu {
+  background: purple;
+  grid-column: span 4;
+}
+.content {
+  background: salmon;
+  grid-column: span 8;
+}
+.footer {
+  background: skyblue;
+  grid-column: span 12;
+}

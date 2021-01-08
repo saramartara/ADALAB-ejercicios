@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+.page {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "cabeza cabeza" "menu contenido" "pie pie";
+  grid-template-rows: 20% 1fr 20%;
+}
+.header {
+  background: pink;
+  grid-column: span 12;
+}
+.menu {
+  background: purple;
+  grid-column: span 4;
+}
+.content {
+  background: salmon;
+  grid-column: span 8;
+}
+.footer {
+  background: skyblue;
+  grid-column: span 12;
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.container-fluid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20% 60% 20%;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.header {
+  background: pink;
+  grid-column: span 12;
+}
+.menu {
+  background: purple;
+  grid-column: span 8;
+}
+.content {
+  background: red;
+  grid-column: span 4;
+}
+.footer {
+  background: lightblue;
+  grid-column: span 12;
+}
