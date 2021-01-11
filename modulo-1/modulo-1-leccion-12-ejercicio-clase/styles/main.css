@@ -1,0 +1,39 @@
+.transition-box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition: background-color 1s ease;
+}
+.transition-box:hover {
+  background-color: blue;
+}
+/* .transition-box:focus {
+  para el formulario
+} */
+
+.animation-box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  animation-name: change;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+}
+@keyframes change {
+  from {
+    background-color: pink;
+    transform: rotate(0) scale(0.5);
+  }
+  30% {
+    background-color: purple;
+    transform: rotate(45deg) scale(1);
+  }
+  60% {
+    background-color: black;
+    transform: rotate(80deg);
+  }
+  /*el final de la animación se puede indicar con 100% o to*/
+  to {
+    background-color: grey;
+  }
+}
