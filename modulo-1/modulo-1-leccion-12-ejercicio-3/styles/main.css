@@ -1,0 +1,18 @@
+.container {
+  background-color: cyan;
+  height: 100vh;
+}
+.container:hover .popup {
+  bottom: 50%;
+}
+.popup {
+  background-color: white;
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transition: all 1s;
+  /* display: none; */
+}
