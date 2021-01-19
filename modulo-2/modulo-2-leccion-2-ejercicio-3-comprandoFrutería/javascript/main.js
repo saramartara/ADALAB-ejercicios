@@ -16,5 +16,5 @@ let uvas = kilosUvas * precioUvas;
 
 let totalCompra = kiwis + peras + uvas;
 
-// console.log(totalCompra);
+console.log(totalCompra);
 
