@@ -1,0 +1,10 @@
+.document {
+  background-color: yellow;
+  height: 100vh;
+}
+.documentR {
+  background-color: red;
+}
+.documentM {
+  background-color: purple;
+}
