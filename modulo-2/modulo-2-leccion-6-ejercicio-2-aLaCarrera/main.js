@@ -1,24 +1,27 @@
 'use strict';
 
-console.log("hi");
+console.log('hi');
 
 
-const teacherList = document.querySelector(".teachers");
+// crear objeto adalaber1:
+// - Susana, 34 años, periodista
 
+const adalaber1 = {
+  name: 'Susana',
+  age: 34,
+  job: 'periodista'
+}
 
-function changeColor (event) {
-  const clickedElement = event.target;
-  const liElement = clickedElement.closest('.teacher');
-  liElement.classList.toggle("teacher--selected");
+adalaber1.run = () => {
+  console.log("Estoy corriendo")
+};
 
-  liElement.querySelector(".favorite").innerHTML = "Quitar";
-
+// Creo la función runMarathon dentro del objeto adalaber1
+adalaber1.runMarathon = (distance) => {
+  console.log(`Estoy corriendo una maratón de ${distance} kilómetros`);
 }
 
 
-// al clicar una foto: añadir clase .teacher--selected si no la tinee o quitarla si la tiene 
 
-
-teacherList.addEventListener ('click', changeColor);
-
-// modificar div.favourite intercambiar Quitar y Añadir - toggle
+adalaber1.run();
+adalaber1.runMarathon(50);
