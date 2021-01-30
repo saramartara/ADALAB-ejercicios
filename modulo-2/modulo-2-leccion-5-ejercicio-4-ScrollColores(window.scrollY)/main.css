@@ -1,9 +1,12 @@
 * {
   margin: 0;
 }
-.text {
+.js-text {
   background-color: bisque;
 }
 .containerB {
   background-color: cadetblue;
+}
+.containerC {
+  background-color: darkslateblue;
 }
