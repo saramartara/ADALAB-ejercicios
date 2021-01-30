@@ -1,17 +1,16 @@
 'use strict';
 
+// input data: párrafo ('.js-p')
+// output data: +=párrafo ('.js-p') innerHTML
 
-// elemento de HTML
-const text = document.querySelector('.p1').innerHTML;
+const paragraphEl = document.querySelector('.js-p');
 
-// handler
 function addText() {
-  return text + text;
+  const paragraphElValue = paragraphEl.innerHTML;
+  return (paragraphEl.innerHTML += paragraphElValue);
 }
 
-// listener sobre el elemento, con tipo de evento y handler
+// al poner el ratón sobre el párrafo (mouseover)
+// añadir un nuevo párrafo con lorem ipsum
 
-text.addEventListener('mouseover', addText);
-
-// const text = document.querySelector('.p1').innerHTML;
-// text.addEventListener('mouseover', () => text + text);
+paragraphEl.addEventListener('mouseover', addText);
