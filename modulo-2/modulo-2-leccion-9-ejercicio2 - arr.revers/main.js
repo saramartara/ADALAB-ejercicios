@@ -1,5 +1,6 @@
 'use strict';
 
+
 //Ejercicio 1
 
 let myList = [];
