@@ -2,6 +2,18 @@
 
 console.log('hola');
 
+// prevent form submit
+
+const form = document.querySelector('.js-form');
+
+function handleForm(ev) {
+  ev.preventDefault();
+}
+
+form.addEventListener('submit', handleForm);
+
+//handle submit button click
+
 const submitEl = document.querySelector('.js-submit');
 const book1 = document.querySelector('.js-input1');
 const book2 = document.querySelector('.js-input2');
