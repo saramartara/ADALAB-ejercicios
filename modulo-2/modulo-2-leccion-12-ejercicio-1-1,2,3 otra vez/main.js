@@ -6,11 +6,23 @@ console.log('holi');
 
 const numbers = [1, 2, 3];
 
+// function handleArrayList() {
+//   let listElement = document.querySelector('.list');
+//   for (let index = 0; index < numbers.length; index++) {
+//     let newItem = document.createElement('li');
+//     let newContent = document.createTextNode(numbers[index]);
+//     newItem.appendChild(newContent);
+//     listElement.appendChild(newItem);
+//   }
+//   console.log(listElement);
+// }
+// handleArrayList();
+
 function handleArrayList() {
   let listElement = document.querySelector('.list');
-  for (let index = 0; index < numbers.length; index++) {
+  for (const number of numbers) {
     let newItem = document.createElement('li');
-    let newContent = document.createTextNode(numbers[index]);
+    let newContent = document.createTextNode(number);
     newItem.appendChild(newContent);
     listElement.appendChild(newItem);
   }
