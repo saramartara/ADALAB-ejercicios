@@ -1,6 +1,6 @@
 'use strict';
 
-console.log('13: ejercicio 3');
+console.log('13: ejercicio 4');
 
 const users = [
   { name: 'María', isPremium: false },
@@ -10,15 +10,18 @@ const users = [
   { name: 'Inmaculada', isPremium: false },
 ];
 
-const greetings = users.map(function (user) {
-  if (user.isPremium) {
-    console.log(`Bienvenida ${user.name}. Gracias por confiar en nosotros.`);
-  } else {
-    console.log(`Bienvenida ${user.name}`);
-  }
-});
+const premiumUsers = users.filter((user) => user.isPremium === true);
+console.log(premiumUsers);
 
-console.log(greetings);
+// const greetings = users.map(function (user) {
+//   if (user.isPremium) {
+//     console.log(`Bienvenida ${user.name}. Gracias por confiar en nosotros.`);
+//   } else {
+//     console.log(`Bienvenida ${user.name}`);
+//   }
+// });
+
+// console.log(greetings);
 
 // const names = ['María', 'Lucía', 'Susana', 'Rocío', 'Inmaculada'];
 // console.log(names);
