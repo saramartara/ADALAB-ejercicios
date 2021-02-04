@@ -12,20 +12,3 @@ const users = [
 
 const premiumUsers = users.filter((user) => user.isPremium === true);
 console.log(premiumUsers);
-
-// const greetings = users.map(function (user) {
-//   if (user.isPremium) {
-//     console.log(`Bienvenida ${user.name}. Gracias por confiar en nosotros.`);
-//   } else {
-//     console.log(`Bienvenida ${user.name}`);
-//   }
-// });
-
-// console.log(greetings);
-
-// const names = ['María', 'Lucía', 'Susana', 'Rocío', 'Inmaculada'];
-// console.log(names);
-
-// const greetings = names.map((name) => `Bienvenida  ${name}`);
-
-// console.log(greetings);
