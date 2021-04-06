@@ -1,0 +1,2 @@
+cambiar en main js, la URL del fetch
+fetch('http://localhost:3000/users')

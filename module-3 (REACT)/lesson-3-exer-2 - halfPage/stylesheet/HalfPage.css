@@ -1,0 +1,18 @@
+* {
+}
+.left {
+  width: 50vw;
+  border: 5px black solid;
+  margin-right: 10px;
+}
+
+.right {
+  width: 50vw;
+  border: 5px red solid;
+}
+.App {
+  display: flex;
+}
+.pink {
+  background-color: pink;
+}
