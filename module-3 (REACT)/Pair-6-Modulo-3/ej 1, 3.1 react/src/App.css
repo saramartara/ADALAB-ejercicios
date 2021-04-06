@@ -1,0 +1,55 @@
+* {
+  margin: 5px 5px;
+  padding: 5px 5px;
+  /*   box-sizing: border-box;
+ */
+}
+.App {
+  width: 500px;
+  height: 400px;
+  background-color: #1664e2;
+  display: flex;
+  border: 20px solid rgb(225, 219, 219);
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+.parrafo {
+  margin: 20px 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  margin-left: 50px;
+}
+.divFlex {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 16px;
+}
+.subtitle {
+  font-size: 14px;
+}
+.App-link {
+  width: 400px;
+  text-decoration: none;
+  color: #61dafb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
